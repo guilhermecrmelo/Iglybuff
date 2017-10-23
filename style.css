@@ -1,0 +1,308 @@
+
+/*.espiral{
+  display: inline-block;
+  vertical-align: middle;
+}
+.spiral-1{
+  width: 0px;
+  height: 0px;
+  border-top: 55px solid transparent;
+  border-bottom: 55px solid transparent; 
+  border-right: 55px solid blue; 
+  border-radius: 0 100px 100px 0;
+  margin-right: 2px solid #000;
+}*/
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.corpo{
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background: pink;
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  left: 600px;
+  border:1px solid;
+}
+.corpo:hover{
+
+}
+#exemplo {
+  width: 120px;
+  height: 220px;
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
+  left: 55px;
+}
+
+.espiral, .espiral div {
+  position: absolute;
+  right: -1em;
+  top: -1px;
+  width: 1em;
+  height: 1em;
+  font-size: 0.89em;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 100% 0 0 0;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  box-sizing: border-box;
+}
+
+.espiral {
+  font-size: 60px;
+  position: relative;
+  right: 0;
+}
+.cabelo{
+
+}
+.bola-1{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: pink;
+  position: absolute;
+  top: -60px;
+  left: 120px;
+  border: 1px solid;
+  z-index: -1;
+}
+.bola-2{
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: pink;
+  position: absolute;
+  top: -100px;
+  left: 180px;
+  border: 1px solid;
+  z-index: -1;
+}
+.bola-3{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: pink;
+  position: absolute;
+  top: -60px;
+  left: 270px;
+  border: 1px solid;
+  z-index: -2;
+}
+.olho-esquerdo{
+  width: 110px;
+  height: 110px;
+  background-color: #B52937;
+  position: absolute;
+  border-radius: 100px;
+  border:1px solid;
+  top: 100px;
+  left: 90px;
+}
+.iris-1{
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 100px;
+  border:1px solid;
+  top: 14px;
+  left: 14px;
+}
+.branco-1{
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.olho-direito{
+  width: 110px;
+  height: 110px;
+  background-color: #B52937;
+  position: absolute;
+  border-radius: 100px;
+  border:1px solid;
+  top: 100px;
+  left: 305px;
+}
+.iris-2{
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 100px;
+  border:1px solid;
+  top: 14px;
+  left: 14px;
+}
+.branco-2{
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.tampa-1{
+  width: 55px;
+  height: 55px;
+  background-color: pink;
+  border-radius: 0 0% 100px 50%;
+  position: absolute;
+  z-index: 2;
+  border:5px solid;
+  top: 233px;
+  left: 183px;
+  transform: rotate(45deg);
+}
+.tampa-2{
+  width: 55px;
+  height: 55px;
+  background-color: pink;
+  border-radius: 0 50% 100px 0%;
+  position: absolute;
+  z-index: 2;
+  border:5px solid;
+  top: 233px;
+  left: 267px;
+  transform: rotate(45deg);
+}
+.tampa-3{
+  width: 190px;
+  height: 50px;
+  background-color: pink;
+  position: absolute;
+  z-index: 2;
+  top: 215px;
+  left: 160px;
+  border-radius: 30% 30% 0 0;
+
+}
+.boca{
+/*  width: 55px;
+  height: 50px;
+  background-color: pink;
+  border:1px solid;
+  position: absolute;
+  top: ;
+  left: 220px;
+  transform: rotate(0deg);
+  border-radius: 0 0 120% 120%;*/
+
+}
+.lingua{
+
+}
+.labio{
+/*  width: 160px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  top:73px;
+  left: -42px;
+  transform: rotate(45deg);
+  border-radius: 100% 100% 100% 100%;*/
+}
+.braço-esquerdo{
+  width: 85px;
+  height: 70px;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;  
+  transform: rotate(35deg);
+  top: 555px;
+  left: 685px;
+}
+.ponta-1{
+  width:110px;
+  height:110px;
+  z-index: 1;
+  position: relative;
+  background-color: pink;
+  border-radius: 85% 0 85% 5%;
+  border:1px solid #000;
+  top: 480px;
+  left: 710px;
+  transform: rotate(-10deg);
+}
+.braço-direito{
+  width: 120px;
+  height: 85px;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;  
+  transform: rotate(80deg);
+  top: 392px;
+  left: 970px;
+}
+.ponta-2{
+  width:110px;
+  height:110px;
+  z-index: 1;
+  position: relative;
+  background-color: pink;
+  border-radius: 85% 0 85% 5%;
+  border:1px solid #000;
+  top: 250px;
+  left: 1040px;
+  transform: rotate(-10deg);
+  transition: transform infinite;
+  animation-name: mao;
+  animation-duration: 0.5s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+@keyframes mao{
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-16deg);}
+}
+/*@keyframes mao{
+  from {transform: rotate(-15deg);}
+  to {transform: rotate(20deg);}
+}*/
+/*.ponta-2:hover{
+  top: 250px;
+  left: 1040px;
+  transform: rotate(30deg);
+}*/
+.perna-esquerda{
+  width: 50px;
+  height: 100px;
+  background-color: pink;
+  z-index: -1;
+  position: absolute;
+  border-radius: 70% 70% 70% 70%;
+  border: 1px solid;
+  top: 600px;
+  left: 700px;
+  transform: rotate(80deg);
+}
+.perna-direita{
+  width: 50px;
+  height: 100px;
+  background-color: pink;
+  z-index: -1;
+  position: absolute;
+  border-radius: 70% 70% 70% 70%;
+  border: 1px solid;
+  top: 600px;
+  left: 945px;
+  transform: rotate(100deg);
+}
